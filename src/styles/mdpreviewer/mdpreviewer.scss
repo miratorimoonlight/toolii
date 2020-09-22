@@ -1,0 +1,66 @@
+.mdpreviewer-container {
+    // border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    //Select all h1 which is IMMEDIATE CHILD of mdpreviewer-container
+    & > h1 {
+        text-align: center;
+        padding-top: 0.3em; 
+        margin-bottom: 0.3em;
+        font-size: 3em;
+        color: #1e88e5;
+    }
+  }
+  
+.editor-container {
+    border: 1px solid;
+    width: 60vw;
+    background: white;
+    margin-bottom: 1em;
+    padding: 0.3em 1em;
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+    & > h3 {
+        font-size: 1.5em;
+        color: #3D75FA;
+    }
+}
+  
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    resize: vertical;
+    width: 100%;
+    height: 220px;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+}
+  
+#previewer {
+    min-height: 100px;
+    word-wrap: break-word;
+    margin-bottom: 0.5em;
+}
+  
+code {
+    display: block;
+    background-color: #789EF9;
+    padding: 5px;
+    font-style: italic;
+}
+  
+li {
+    margin-left: 2em;
+    list-style-type: disc !important;
+}
+
+// These !important styles are used to STOP materialize from overriding
+strong {
+    font-weight: 900;
+}
+
+[type="checkbox"] {
+    opacity: 1 !important;
+    position: static !important;
+}

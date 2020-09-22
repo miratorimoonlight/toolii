@@ -1,0 +1,61 @@
+.title {
+  text-align: center;
+  margin-top: 3em;
+  font-size: 0.85em;
+}
+
+.calculator {
+  border: 6px solid #2980B9;
+  width: 24.72em;
+  margin: 1.5em auto;
+}
+
+.display-container {
+  background: #2980B9;
+  text-align: right;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  color: white;
+}
+
+.small-display {
+  padding-top: 0.1em;
+  word-break: break-word;
+}
+
+.big-display {
+  padding-top: 0.2em;
+  font-size: 1.5em;
+  word-break: break-word;
+}
+
+#button-container {
+  width: 26.1em;
+}
+
+button {
+  outline: 2px solid #2980B9;
+  border: none;
+  width: 6em;
+  height: 5.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.double-btn {
+  width: 12em;
+}
+
+#clear {
+  background: #DA9A24;
+  color: white;
+}
+
+#equals {
+  background: #13B13D;
+  color: white;
+}
+/*# sourceMappingURL=calculator.css.map */

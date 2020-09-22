@@ -1,0 +1,33 @@
+
+.row {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-container {
+    width: 50vw;
+}
+
+#aboutme-img {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+}
+
+@media(max-width: 600px) {
+    .row {
+        display: block;
+        text-align: center;
+    }
+
+    #aboutme-img {
+        display: none;
+    }
+
+    #aboutme-info {
+        display: block;
+        text-align: left;
+        margin-left: 5em;
+    }
+}
