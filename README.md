@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app use ReactJS and its functionalities are:
+- Calculator
+- Markdown Previewer
+- More tools coming soon
 
 ## Available Scripts
 
