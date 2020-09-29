@@ -1,12 +1,15 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-// import NavBar from '../components/NavBar'
 import BunchOfCards from '../components/BunchOfCards'
 import Calculator from '../pages/Calculator'
 import MDPreviewer from '../pages/MDPreviewer'
 import AboutMe from '../pages/AboutMe'
+import useLocationBlocker from './LocationBlocker'
+
 
 export default function Routes() {
+    useLocationBlocker()
+    console.log("Routessss")
     return (
         <React.Fragment>
             <Route path="/" exact component={BunchOfCards} />
