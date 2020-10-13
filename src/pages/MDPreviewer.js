@@ -34,7 +34,7 @@ function Editor(props) {
         <div className="editor-container">
             <h3>Editor</h3>
             <hr />
-            <textarea type="text" onChange={props.handleInput} value={props.inputText}/>
+            <textarea type="text" onChange={props.handleInput} value={props.inputText} placeholder="Type here..."/>
         </div>
     )
 }
